@@ -1,0 +1,553 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: helvetica;
+    color: #444;
+}
+
+#about_bg{
+    width: 100%;
+    height: 400px;
+}
+
+#about_bg img{
+    width: 100%;
+    height: 100%;
+}
+
+#bg_content{
+    width: 100%;
+    position: absolute;
+    text-align: center;
+}
+
+#bg_content #about_logo{
+    width: 150px;
+    float: left;
+    display: block;
+    margin: 20px 0 0 3%;
+}
+
+#bg_content h1{
+    width: 100%;
+    float: left;
+    color: #fff;
+    font-size: 36px;
+    margin: 80px 0 0 0;
+}
+
+#bg_content p{
+    width: 100%;
+    float: left;
+    color: #fff;
+    font-size: 30px;
+    line-height: 1.2em;
+    letter-spacing: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#bg_content #sign-jobsFeed{
+    border: 1px solid #fff;
+    padding: 8px 15px;
+    display: block;
+    text-decoration: none;
+    float: right;
+    margin: 20px 3% 0 0;
+    color: #fff;
+}
+
+#bg_content #sign-jobsFeed:hover {
+    color: #fff;
+    font-weight: bold;
+    border: 2px solid #fff;
+}
+
+
+#about_content, #faqs{
+    width: 48%;
+    margin: 0 0 0 26%;
+    float: left;
+}
+
+#about_content h2, #faqs h2{
+    width: 100%;
+    float: left;
+    margin: 70px 0 30px 0;
+    font-size: 30px;
+}
+
+#about_content p, #faqs p{
+    width: 100%;
+    float: left;
+    line-height: 1.5em;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+#about_content h3, #faqs h3{
+    width: 100%;
+    float: left;
+    margin: 80px 0 20px 0;
+    letter-spacing: 1px;
+    font-size: 26px;
+}
+
+#workers{
+    width: 100%;
+    float: left;
+    margin: 70px 0 0 0;
+}
+
+#workers li{
+    float: left;
+    list-style: none;
+    width: 33.3%;
+    margin: 0 0 80px 0;
+    text-align: center;
+}
+
+#workers .icons{
+    float: left;
+    color: #0177b5;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    font-size: 30px;
+    position: relative;
+    z-index: 100;
+    margin: -20px 0 0 -79px;
+    display: none;
+}
+
+.link{
+    margin: 0px 0 0 0px;
+    z-index: 100;
+}
+
+#workers img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    -webkit-transition: all 1s ease; /* Safari and Chrome */
+    -moz-transition: all 1s ease; /* Firefox */
+    -ms-transition: all 1s ease; /* IE 9 */
+    -o-transition: all 1s ease; /* Opera */
+    transition: all 1s ease;
+}
+
+#workers img:hover {
+    -webkit-transform:scale(1.25); /* Safari and Chrome */
+    -moz-transform:scale(1.25); /* Firefox */
+    -ms-transform:scale(1.25); /* IE 9 */
+    -o-transform:scale(1.25); /* Opera */
+     transform:scale(1.25);
+}
+
+#workers li span{
+    display: block;
+    max-width: 120px;
+    max-height: 120px;
+    border-radius: 50%;
+    margin: 0 0 10px 40px;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    z-index: 50;
+}
+
+#workers li p{
+    font-size: 15px;
+    letter-spacing: 0;
+    color: #34495e;
+}
+
+.emp_faq{
+    width: 100%;
+    float: left;
+}
+
+.emp_faq li{
+    list-style: none;
+    width: 100%;
+    background: #23be9f;
+    color: #fff;
+    margin: 0 0 8px 0;
+    float: left;
+}
+
+.emp_faq li p{
+    margin: 15px 0 10px 20px;
+    float: left;
+}
+
+.emp_faq li p span{
+    float: right;
+    margin: 0 35px 0 0;
+}
+
+.drop_down{
+    width: 100%;
+    border: 1px solid #ccc;
+    float: left;
+    color: fff;
+    background: #666;
+    padding: 20px;
+    box-sizing: border-box;
+    display: none;
+    font-size: 14px;
+    line-height: 1.5em;
+    letter-spacing: 1px;
+}
+
+#about_signup{
+    width: 100%;
+    height: 250px;
+    float: left;
+    color: #fff;
+    background: #232323;
+    text-align: center;
+    margin: 60px 0 0 0;
+}
+
+#about_signup h1{
+    width: 100%;
+    text-align: center;
+    float: left;
+    margin: 50px 0 40px 0;
+    font-size: 40px;
+}
+
+#about_signup a{
+    margin: 0 10px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    border: 2px solid #fff;
+    padding: 9px 40px;
+}
+
+#about_footer{
+    width: 100%;
+    height: 270px;
+    background: #f3f7fa;
+    float: left;
+}
+
+#about_footer ul{
+    width: 40%;
+    margin: 40px auto 0 auto;
+}
+
+#about_footer ul li{
+    list-style: none;
+    float: left;
+    width: 33.33%;
+}
+
+#about_footer ul li h3{
+    width: 100%;
+    float: left;
+    margin: 0 0 30px 0;
+}
+
+#about_footer ul li a, #about_footer ul li p{
+    width: 100%;
+    float: left;
+    text-decoration: none;
+    line-height: 2em;
+    color: #000;
+    letter-spacing: 0;
+}
+
+.click_link{
+    color: #5ec2ed;
+}
+
+#coming-soon {
+  background: #f3961c none repeat scroll 0 0;
+  border-radius: 10px;
+  color: #fff;
+  padding: 5px;
+  position: absolute;
+  margin: 8.5em 0 0 5.5em;
+  width: 70px;
+  font-size: 0.7em;
+}
+
+#coming-soon::after {
+  border-color: #f3961c transparent;
+  border-style: solid;
+  border-width: 10px 10px 0;
+  bottom: -15px;
+  left: 2px;
+  content: " ";
+  position:absolute;
+  top: 18px;
+}
+
+@media screen and (max-width: 1150px) {
+    #about_content{
+        width: 90%;
+        margin: 0 0 0 5%;
+        float: left;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    #workers img{
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+    }
+
+    #workers li p{
+        font-size: 12px;
+        letter-spacing: 0;
+        color: #34495e;
+    }
+
+    #about_footer ul{
+        width: 90%;
+        margin: 40px auto 0 auto;
+        background: red;
+    }
+
+    #about_signup{
+        width: 100%;
+        margin: 20px 0 0 0;
+        padding: 0;
+        float: left;
+        height: auto;
+        padding: 0 0 20px 0;
+
+    }
+
+    #about_signup h1{
+        width: 100%;
+        text-align: center;
+        float: left;
+        margin: 20px 0 20px 0;
+        font-size: 16px;
+
+    }
+
+    #about_signup a{
+        padding: 0;
+        margin: 10px 0 0 5%;
+        text-decoration: none;
+        color: #fff;
+        font-size: 16px;
+        border: 1px solid #fff;
+        width: 90%;
+        height: 34px;
+        float: left;
+        line-height: 34px;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #workers li{
+        width: 50%;
+    }
+
+    #workers li p{
+        font-size: 10px;
+        letter-spacing: 0;
+        color: #34495e;
+    }
+
+    #workers .icons{
+        float: left;
+        color: #0177b5;
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        font-size: 30px;
+        position: relative;
+        z-index: 100;
+        margin: -20px 0 0 -52px;
+        display: none;
+    }
+
+    #about_signup{
+        width: 100%;
+        margin: 20px 0 0 0;
+        padding: 0;
+        float: left;
+        height: auto;
+        padding: 0 0 20px 0;
+
+    }
+
+    #about_signup h1{
+        width: 100%;
+        text-align: center;
+        float: left;
+        margin: 20px 0 20px 0;
+        font-size: 16px;
+
+    }
+
+    #about_signup a{
+        padding: 0;
+        margin: 10px 0 0 5%;
+        text-decoration: none;
+        color: #fff;
+        font-size: 16px;
+        border: 1px solid #fff;
+        width: 90%;
+        height: 34px;
+        float: left;
+        line-height: 34px;
+        display: block;
+    }
+
+    #about_footer{
+        height: auto;
+    }
+
+    #about_footer ul li, #about_footer ul{
+        width: 100%;
+    }
+
+    #about_footer ul li{
+        margin: 0 0 20px 0;
+    }
+
+    #about_footer ul li h3{
+        font-size: 16px;
+        margin: 0 0 10px 35%;
+    }
+
+    #about_footer ul li a{
+        font-size: 11px;
+        margin: 0 0 0 35%;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    #workers li{
+        width: 100%;
+        margin: 0 0 20px 0;
+    }
+
+    #workers li span{
+        display: block;
+        max-width: 120px;
+        max-height: 120px;
+        border-radius: 50%;
+        margin: 0 0 10px 80px;
+        float: left;
+        overflow: hidden;
+        position: relative;
+        z-index: 50;
+    }
+
+    #bg_content #about_logo{
+        width: 110px;
+        display: block;
+        margin: 20px 0 0 3%;
+    }
+
+    #bg_content h1{
+        font-size: 16px;
+        margin: 30px 0 0 0;
+    }
+
+    #bg_content p{
+        font-size: 16px;
+        line-height: 1.2em;
+        letter-spacing: 0;
+        font-family: 'Quicksand', sans-serif;
+    }
+
+    #about_bg{
+        width: 100%;
+        height: 200px;
+    }
+
+    #bg_content a{
+        border: 1px solid #fff;
+        padding: 8px 10px;
+        display: block;
+        text-decoration: none;
+        float: right;
+        font-size: 12px;
+        margin: 20px 3% 0 0;
+        color: #fff;
+    }
+
+    #about_content h2{
+        letter-spacing: 1px;
+        font-size: 14px;
+        margin: 20px 0 10px 0;
+    }
+
+    #about_content p{
+        font-size: 12px;
+    }
+
+    #about_content h3{
+        font-size: 14px;
+        margin: 30px 0 10px 0;
+    }
+
+    #about_signup{
+        width: 100%;
+        margin: 20px 0 0 0;
+        padding: 0;
+        float: left;
+        height: auto;
+        padding: 0 0 20px 0;
+
+    }
+
+    #about_signup h1{
+        width: 100%;
+        text-align: center;
+        float: left;
+        margin: 20px 0 20px 0;
+        font-size: 16px;
+
+    }
+
+    #about_signup a{
+        padding: 0;
+        margin: 10px 0 0 5%;
+        text-decoration: none;
+        color: #fff;
+        font-size: 16px;
+        border: 1px solid #fff;
+        width: 90%;
+        height: 34px;
+        float: left;
+        line-height: 34px;
+        display: block;
+    }
+
+    #about_footer{
+        height: auto;
+    }
+
+    #about_footer ul li, #about_footer ul{
+        width: 100%;
+    }
+
+    #about_footer ul li{
+        margin: 0 0 20px 0;
+    }
+
+    #about_footer ul li h3{
+        font-size: 16px;
+        margin: 0 0 10px 35%;
+    }
+
+    #about_footer ul li a{
+        font-size: 11px;
+        margin: 0 0 0 35%;
+    }
+}
