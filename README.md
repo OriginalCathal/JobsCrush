@@ -1,31 +1,27 @@
-<<<<<<< HEAD
-# [Start Bootstrap](http://startbootstrap.com/) - [Creative](http://startbootstrap.com/template-overviews/creative/)
+For Jobseekers
 
-[Creative](http://startbootstrap.com/template-overviews/creative/) is a one page creative theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/).
+‣ View in one place all jobs posted on social networks - organized based on job location and job role - Twitter, LinkedIn, Facebook etc.
+‣ Create a wish list of companies to work for and locations to work in-   save and apply for jobs all within the JobsCrush platform
+For Employers
 
-## Getting Started
+‣ Access the JobsCrush talent pool to find and engage with the best candidates for your vacancy.
+‣ Effectively promote vacancies to a specific target audience.
+‣ Increase and leverage on your company visibility on SMN, see and connect with users who have interacted with your job roles.
 
-To use this theme, choose one of the following options to get started:
-* Download the latest release on Start Bootstrap
-* Fork this repository on GitHub
+JobsCrush gathers, aggregates, stores and presents all jobs posted on SMN
+For Jobseekers
+1. Sign up through 1 Social Media profile - Twitter, LinkedIn or Facebook. 2. Answer 4 questions to enter the Talent Pool.
+3. View opportunities based on your profile.
+For Employers
+1. Sign up through 1 Social Media profile - Twitter, LinkedIn or Facebook.
+2. Get access to the talent pool.
+3. Filter through thousands of active JobSeekers to identify & contact potential candidates. 4. Post and promote vacancies.
 
-## Bugs and Issues
+JobsCrush Hire
+Is a cloud-based solution enabling employers to publish all job openings on their company website, providing automatic publishing across all social networks, candidate analytics for data driven decisions, scheduling and recording of all correspondence.
 
-Have a bug or an issue with this theme? [Open a new issue](https://github.com/IronSummitMedia/startbootstrap-creative/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/creative/).
 
-## Creator
 
-Start Bootstrap was created by and is maintained by **David Miller**, Managing Partner at [Iron Summit Media Strategies](http://www.ironsummitmedia.com/).
-
-* https://twitter.com/davidmillerskt
-* https://github.com/davidtmiller
-
-Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
-
-## Copyright and License
-
-Copyright 2013-2015 Iron Summit Media Strategies, LLC. Code released under the [Apache 2.0](https://github.com/IronSummitMedia/startbootstrap-creative/blob/gh-pages/LICENSE) license.
-=======
-# JobsCrush
+JobsCrush
 JobsCrush - Technical Job Aggregator 
 >>>>>>> 13f9997ff73e8672970f7d8628ffb90fe90fb378
